@@ -1,1 +1,1 @@
-Add your portrait image here and name it profile.jpg. Recommended: square crop, 800x800 or larger.
+Add your portrait to this folder and name it profile.jpg. The site displays a monogram until you add a photo.\n

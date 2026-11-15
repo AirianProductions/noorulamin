@@ -1,38 +1,17 @@
-# Noor — Digital Identity
-
-A mobile-first personal landing page designed to work as an NFC digital business card.
-
-## Requirements
-- Node.js 20.19+ or 22.12+
-- npm
+# Noor Ul Amin — Personal Portfolio
+A responsive React portfolio inspired by the Liam creative portfolio demo, adapted with Noor's supplied details.
 
 ## Run locally
-1. Extract this folder.
-2. Open a terminal in `noor-digital-identity`.
-3. Run:
-
-   ```bash
-   npm install
-   npm run dev
-   ```
-
-4. Open the local URL printed by Vite (usually http://localhost:5173).
-
-## Personalize it
-Edit `src/data/profile.js`:
-- Replace the email, phone, website and social URLs.
-- Update the bio, skills and interests.
-- Put your portrait at `public/profile.jpg` (square image recommended).
-
-The page includes a Save Contact button that downloads a `.vcf` contact file. Update the profile details before sharing the page publicly.
-
-## Build for deployment
 ```bash
-npm run build
-npm run preview
+npm install
+npm run dev
 ```
+Open the local Vite URL.
 
-The production site is generated in `dist/`. Deploy that folder to Vercel, Netlify, or another static hosting provider.
+## Personalize
+- Add a portrait at `public/profile.jpg`.
+- Edit `src/data/profile.js` to update your details, links, skills, and bio.
 
-## NFC card
-Once deployed, write the public website URL to the NFC card. The card stores only the URL, so you can update the website later without reprogramming the card.
+## GitHub Pages
+The Vite base path is configured for `/noorulamin/`.
+The deployment workflow expects a repository secret `PAGES_TOKEN` with repository Pages read/write permission. If Pages is already enabled and you no longer need the token, remove the token and enablement inputs from the `configure-pages` step and keep `pages: write` and `id-token: write` permissions.

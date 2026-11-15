@@ -1,24 +1,20 @@
-// Edit this file to personalize your digital card.
-// Replace placeholder values before publishing the site.
 export const profile = {
   name: "Noor Ul Amin",
   firstName: "Noor",
-  role: "Computer Science Student · Aspiring Developer",
-  location: "Hungary",
-  photo: "/profile.jpg",
-
-  bio: "Curious mind, technology enthusiast, and aspiring software developer. I enjoy building things, exploring ideas, and connecting with people.",
-
-  email: "YOUR_EMAIL@example.com",
-  phone: "",
-  website: "https://YOUR_DOMAIN.com",
-
+  role: "BSc Computer Science Student",
+  location: "Eger, Hungary",
+  university: "Eszterházy Károly Catholic University",
+  email: "noorulaminltd@gmail.com",
+  phone: "+36707012867",
+  whatsapp: "https://wa.me/36707012867",
+  photo: `${import.meta.env.BASE_URL}profile.jpg`,
+  bio: "I'm a Computer Science student with a curiosity for how things work and a passion for turning ideas into something useful. I'm exploring software development, programming, and automation while continuously expanding my technical skills. Beyond technology, I enjoy astronomy, philosophy, poetry, and discovering new perspectives.",
+  skills: ["C#", "Python", "JavaScript", "HTML", "CSS", "React", "SQL", "Kotlin", "Racket"],
+  interests: ["Software Development", "Automation", "Astronomy", "Philosophy", "Poetry"],
   social: {
-    linkedin: "https://linkedin.com/in/YOUR_USERNAME",
-    github: "https://github.com/YOUR_USERNAME",
-    instagram: "https://instagram.com/YOUR_USERNAME"
-  },
-
-  skills: ["C#", "Python", "JavaScript", "React", "HTML", "CSS", "SQL"],
-  interests: ["Software Development", "Technology", "Astronomy", "Philosophy"]
+    instagram: "https://www.instagram.com/_.airian._/",
+    facebook: "https://www.facebook.com/airiannnn",
+    linkedin: "https://www.linkedin.com/in/airian/",
+    github: "https://github.com/AirianProductions"
+  }
 };
