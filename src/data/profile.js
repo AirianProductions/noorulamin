@@ -7,7 +7,7 @@ export const profile = {
   email: "noorulaminltd@gmail.com",
   phone: "+36707012867",
   whatsapp: "https://wa.me/36707012867",
-  photo: `${import.meta.env.BASE_URL}profile.jpg`,
+  photo: `${import.meta.env.BASE_URL}profile.png`,
   bio: "I'm a Computer Science student with a curiosity for how things work and a passion for turning ideas into something useful. I'm exploring software development, programming, and automation while continuously expanding my technical skills. Beyond technology, I enjoy astronomy, philosophy, poetry, and discovering new perspectives.",
   skills: ["C#", "Python", "JavaScript", "HTML", "CSS", "React", "SQL", "Kotlin", "Racket"],
   interests: ["Software Development", "Automation", "Astronomy", "Philosophy", "Poetry"],
